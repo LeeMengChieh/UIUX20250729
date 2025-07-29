@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <style>
+        body {
+            height: 100vh;
+        }
+    </style>
+    <title>登入介面的組合</title>
+</head>
+
+<body>
+    <div
+        class="block bg-secondary-subtle w-50 h-50 position-absolute position-absolute top-50 start-50 translate-middle rounded-4 shadow border border-dark-subtle">
+        <div class="fs-1 fw-bold text-center py-5">LOGIN</div>
+        <div class="mb-3 px-3 hstack gap-2 m-0">
+            <label for="exampleFormControlInput1" class="form-label">Account</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="請輸入帳號">
+        </div>
+        <div class="mb-3 px-3 hstack gap-2 m-0">
+            <label for="exampleFormControlInput1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="請輸入密碼">
+        </div>
+        <div class="d-grid gap-2 d-flex justify-content-end p-3">
+            <button class="btn btn-primary me-md-2" type="button">送出</button>
+            <button class="btn btn-danger" type="button">取消</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
