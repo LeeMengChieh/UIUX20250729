@@ -1,0 +1,31 @@
+@mixin setting1($bgc1)
+  width: 200px
+  height: 200px
+  margin-bottom: 20px
+  background-color: $bgc1
+
+.block
+  @include setting1(#f8fa8e)
+  position: relative
+  border-radius: 10px
+  .circle
+    position: absolute
+    bottom: 0
+    right: 0
+    width: 30px
+    height: 30px
+    border-radius: 50%
+    background-color: #fff
+
+.block2
+  @include setting1(#ff4870)
+  border-radius: 10px
+
+.block3
+  @include setting1(#249b9b)
+  border-radius: 10px
+
+@for $i from 1 through 20
+  $size: 10 + $i * 2
+  .fz-#{$size}
+    font-size: #{$size}px
