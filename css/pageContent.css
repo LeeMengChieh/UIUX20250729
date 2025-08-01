@@ -27,7 +27,7 @@
 }
 
 header {
-  background-image: url("https://images.pexels.com/photos/708488/pexels-photo-708488.jpeg");
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent 60%), url("https://images.pexels.com/photos/708488/pexels-photo-708488.jpeg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
