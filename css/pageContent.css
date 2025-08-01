@@ -1,11 +1,58 @@
-.h200px {
-  height: 200px;
+.h250px {
+  height: 250px;
 }
 
-input::-moz-placeholder {
-  color: #575555 !important;
+.h300px {
+  height: 300px;
 }
 
-input::placeholder {
+.h150px {
+  height: 150px;
+}
+
+.w150px {
+  width: 150px;
+}
+
+.min200vh {
+  min-height: 200vh;
+}
+
+.top54 {
+  top: 54px;
+}
+
+.bw2px {
+  border-width: 2px;
+}
+
+header {
+  background-image: url("https://images.pexels.com/photos/708488/pexels-photo-708488.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.navbar .container .navbar-collapse .search {
+  width: 200px;
+  transition: all 0.4s;
+}
+.navbar .container .navbar-collapse .search:focus-within {
+  width: 600px;
+}
+.navbar .container .navbar-collapse .search input::-moz-placeholder {
   color: #575555 !important;
+}
+.navbar .container .navbar-collapse .search input::placeholder {
+  color: #575555 !important;
+}
+.navbar .container .navbar-collapse .btn-1 {
+  color: #8b8b8b;
+}
+.navbar .container .navbar-collapse .btn-1:hover {
+  color: #ffffff;
+}
+
+aside .container .nav .nav-link.active {
+  border-bottom: 2px solid #0f89c2;
 }/*# sourceMappingURL=pageContent.css.map */
